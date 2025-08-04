@@ -107,7 +107,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "success",
+						"name": "",
 						"type": "bool"
 					}
 				],
@@ -160,6 +160,37 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "reward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_parkingContract",
+						"type": "address"
+					}
+				],
+				"name": "setParkingContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "symbol",
 				"outputs": [
@@ -202,7 +233,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "success",
+						"name": "",
 						"type": "bool"
 					}
 				],
@@ -231,7 +262,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "success",
+						"name": "",
 						"type": "bool"
 					}
 				],
@@ -240,7 +271,6 @@
 			}
 		],
 		"devdoc": {
-			"custom:dev-run-script": "scripts/deploy.js",
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -268,11 +298,11 @@
 	},
 	"sources": {
 		"CityParkingToken.sol": {
-			"keccak256": "0x6f295733c4716ba7fb409194468835465cb768e461d0e82255665112ca83726e",
+			"keccak256": "0xa9a3a1be727445be73aad1bbd6f3a360f0dc25e8e7151b36a0107dd6d79c1320",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d763458252018301a31a794848552bb3fee6ab2f6474e106d9b1e927cbf8f307",
-				"dweb:/ipfs/QmcqG8WcgXHjnDhnnNuRvt9AwoV95TDRHrCEmgB65tfmF3"
+				"bzz-raw://84f5c9da165fe3c9f552abab194b8d05edfb25a0d1e211e6b08906eedbb4052e",
+				"dweb:/ipfs/QmZoueexEejHLHeiWnGtibxkZh9ppXt1FYcmRGkLL7WdqZ"
 			]
 		}
 	},
